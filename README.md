@@ -7,5 +7,5 @@ rosbag record --publisher=PUBLISHER - record all topics published by a node
 Приложена целиком папка ros_comm/tools/rosbag. 
 В файле rosbag_main.py ключ добавлен в парсер, также изменены файлы record.cpp, recorder.cpp и recorder.h
 
-Сборка аналогична стандартной сборке ros, новых файлов не добавлено.
+Сборка аналогична стандартной сборке ros, новых файлов не добавлено. Надо просто заменить src/ros_comm/tools/rosbag
 Протестировать можно с помощью turtlesim, например, действуя по аналогии с rosbag record --node=NODE
